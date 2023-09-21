@@ -21,6 +21,7 @@ export default {
 body{
     margin: 0;
     padding: 0;
+    background-color: #F8F0E5;
 }
 
 p, a, h1, button{

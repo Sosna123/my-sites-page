@@ -1,9 +1,9 @@
 <template>
     <nav class="nb">
-        <a class="nb-text" href="/">Olek Arez</a>
-        <a class="nb-link nb-link-first" href="/sites">My Sites</a>
-        <a class="nb-link" href="/sites">My Sites</a>
-        <a class="nb-link" href="/sites">My Sites</a>
+        <router-link class="nbText" to="/">Olek Arez</router-link>
+        <router-link class="nbLink nbLinkFirst" to="/sites">My Sites</router-link>
+        <router-link class="nbLink" to="/sites">My Sites</router-link>
+        <router-link class="nbLink" to="/sites">My Sites</router-link>
     </nav>
 </template>
 
@@ -14,47 +14,47 @@
 <style>
 .nb{
     display: flex;
-    background: rgb(0, 90, 255);
+    background: #0F2C59;
     padding: 20px;
-    margin: 0;
+    margin: 0 0 30px 0;
 }
 
     /* nb-text */
 
-.nb-text{
+.nbText{
     text-decoration: none;
     color: white;
-    font-size: 46px;
+    font-size: 48px;
     margin: 0;
 }
 
-.nb-text:hover{
+.nbText:hover{
     color: rgb(200, 200, 200);
 }
 
-.nb-text:active{
+.nbText:active{
     color: rgb(150, 150, 150);
 }
 
     /* nb-link */
 
-.nb-link{
+.nbLink{
     text-decoration: none;
     color: white;
-    font-size: 32px;
+    font-size: 28px;
     margin: 0 5px;
     align-self: center;
 }
 
-.nb-link-first{
+.nbLinkFirst{
     margin-left: auto;
 }
 
-.nb-link:hover{
+.nbLink:hover{
     color: rgb(200, 200, 200);
 }
 
-.nb-link:active{
+.nbLink:active{
     color: rgb(150, 150, 150);
 }
 </style>

@@ -2,8 +2,6 @@
     <nav class="nb">
         <router-link class="nbText" to="/">Olek Arez</router-link>
         <router-link class="nbLink nbLinkFirst" to="/sites">My Sites</router-link>
-        <router-link class="nbLink" to="/sites">My Sites</router-link>
-        <router-link class="nbLink" to="/sites">My Sites</router-link>
     </nav>
 </template>
 

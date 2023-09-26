@@ -18,7 +18,8 @@ export default{
             {link: "https://sosna123.github.io/Cat-Facts-API/", text: "Cat facts"},
             {link: "https://sosna123.github.io/Weather-API/", text: "Weather site"},
             {link: "https://sosna-pokedex.netlify.app/", text: "Pokedex site"},
-            {link: "https://notatki-db.netlify.app/#/", text: "Notes site"}
+            {link: "https://notatki-db.netlify.app/#/", text: "Notes site"},
+            {link: "https://sosna-home-page.netlify.app/#/", text: "The site you're on right now"}
         ]
 
         return{

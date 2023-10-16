@@ -6,6 +6,13 @@
                 <a :href="site.link" target="_blank">{{ site.text }}</a>
             </li>
         </ul>
+        
+        <p class="siteHeader">Other things:</p>
+        <ul class="otherLinksList">
+            <li v-for="site in otherLinks" :key="site.link" class="site">
+                <a :href="site.link" target="_blank">{{ site.text }}</a>
+            </li>
+        </ul>
     </div>
 </template>
 
@@ -22,8 +29,12 @@ export default{
             {link: "https://sosna-home-page.netlify.app/#/", text: "The site you're on right now"}
         ]
 
+        const otherLinks = [
+            {link: "https://sosnowy123.itch.io/", text: "My itch.io page"}
+        ]
+
         return{
-            sites
+            sites, otherLinks
         }
     }
 }

@@ -1,16 +1,16 @@
 <template>
-    <div class="sites">
-        <p class="siteHeader">Here are my sites:</p>
-        <ul class="siteList">
-            <li v-for="site in sites" :key="site.link" class="site">
-                <a :href="site.link" target="_blank">{{ site.text }}</a>
+    <div class="container-fluid p-2 ms-4">
+        <p class="display-6">Here are my sites:</p>
+        <ul class="list-group list-group-flush">
+            <li v-for="site in sites" :key="site.link" class="list-group-item">
+                <a :href="site.link" target="_blank" class="lead text-reset text-decoration-none fs-3">{{ site.text }}</a>
             </li>
         </ul>
         
-        <p class="siteHeader">Other things:</p>
-        <ul class="otherLinksList">
-            <li v-for="site in otherLinks" :key="site.link" class="site">
-                <a :href="site.link" target="_blank">{{ site.text }}</a>
+        <p class="display-6 mt-4">Other things:</p>
+        <ul class="list-group list-group-flush">
+            <li v-for="site in otherLinks" :key="site.link" class="list-group-item">
+                <a :href="site.link" target="_blank"  class="lead text-reset text-decoration-none fs-3">{{ site.text }}</a>
             </li>
         </ul>
     </div>
@@ -41,18 +41,5 @@ export default{
 </script>
 
 <style>
-.siteHeader{
-    font-size: 32px;
-    margin: 0 0 0 15px;
-}
 
-.site{
-    margin-bottom: 5px;
-}
-
-.site > a{
-    text-decoration: none;
-    color: black;
-    font-size: 22px;
-}
 </style>

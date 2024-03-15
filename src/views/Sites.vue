@@ -27,11 +27,12 @@ export default{
             {link: "https://sosna-pokedex.netlify.app/", text: "Pokedex site"},
             {link: "https://notatki-db.netlify.app/#/", text: "Notes site"},
             {link: "https://sosna-home-page.netlify.app/#/", text: "The site you're on right now"},
-            {link: "https://wca-info.netlify.app/#/", text: "Site that gives information about WCA competitions and competitors"},
+            {link: "https://wca-info.netlify.app/#/", text: "Site that gives information about WCA competitions and competitors (WIP)"},
         ]
 
         const otherLinks = [
             {link: "https://sosnowy123.itch.io/", text: "My itch.io page"},
+            {link: "https://github.com/Sosna123", text: "My Github"},
             {link: "https://www.worldcubeassociation.org/persons/2022AREZ01", text: "My WCA account"},
         ]
 

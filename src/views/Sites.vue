@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid p-2 ms-4">
-        <p class="display-6">Here are my sites:</p>
+        <p class="display-6">My Sites:</p>
         <ul class="list-group list-group-flush">
             <li v-for="site in sites" :key="site.link" class="list-group-item">
                 <a :href="site.link" target="_blank" class="lead text-reset text-decoration-none fs-3">{{ site.text }}</a>
@@ -26,11 +26,13 @@ export default{
             {link: "https://sosna123.github.io/Weather-API/", text: "Weather site"},
             {link: "https://sosna-pokedex.netlify.app/", text: "Pokedex site"},
             {link: "https://notatki-db.netlify.app/#/", text: "Notes site"},
-            {link: "https://sosna-home-page.netlify.app/#/", text: "The site you're on right now"}
+            {link: "https://sosna-home-page.netlify.app/#/", text: "The site you're on right now"},
+            {link: "https://wca-info.netlify.app/#/", text: "Site that gives information about WCA competitions and competitors"},
         ]
 
         const otherLinks = [
-            {link: "https://sosnowy123.itch.io/", text: "My itch.io page"}
+            {link: "https://sosnowy123.itch.io/", text: "My itch.io page"},
+            {link: "https://www.worldcubeassociation.org/persons/2022AREZ01", text: "My WCA account"},
         ]
 
         return{

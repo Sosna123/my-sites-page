@@ -34,21 +34,21 @@ export default {
                 link: "https://sosna-pokedex.netlify.app/",
                 text: "Pokedex site",
             },
-            { link: "https://notatki-db.netlify.app/#/", text: "Notes site" },
+            { link: "https://notatki-db.netlify.app/", text: "Notes site" },
             {
-                link: "https://sosna-home-page.netlify.app/#/",
+                link: "https://sosna-home-page.netlify.app/",
                 text: "The site you're on right now",
             },
             {
-                link: "https://wca-info.netlify.app/#/",
+                link: "https://wca-info.netlify.app/",
                 text: "Site that gives information about WCA competitions and competitors",
             },
             {
-                link: "https://speedcubing-timer.netlify.app/#/",
+                link: "https://speedcubing-timer.netlify.app/",
                 text: "A timer for solving a rubiks cube",
             },
             {
-                link: "sosna-guitar-stuff.netlify.app",
+                link: "https://sosna-guitar-stuff.netlify.app",
                 text: "Guitar stuff",
             },
             {

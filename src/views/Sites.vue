@@ -3,27 +3,14 @@
         <p class="display-6">My Sites:</p>
         <ul class="list-group list-group-flush">
             <li v-for="site in sites" :key="site.link" class="list-group-item">
-                <a
-                    :href="site.link"
-                    target="_blank"
-                    class="lead text-reset text-decoration-none fs-3"
-                    >{{ site.text }}</a
-                >
+                <a :href="site.link" target="_blank" class="lead text-reset text-decoration-none fs-3">{{ site.text }}</a>
             </li>
         </ul>
 
         <p class="display-6 mt-4">Other things:</p>
         <ul class="list-group list-group-flush">
-            <li
-                v-for="site in otherLinks"
-                :key="site.link"
-                class="list-group-item">
-                <a
-                    :href="site.link"
-                    target="_blank"
-                    class="lead text-reset text-decoration-none fs-3"
-                    >{{ site.text }}</a
-                >
+            <li v-for="site in otherLinks" :key="site.link" class="list-group-item">
+                <a :href="site.link" target="_blank" class="lead text-reset text-decoration-none fs-3">{{ site.text }}</a>
             </li>
         </ul>
     </div>
@@ -32,7 +19,7 @@
 <script>
 export default {
     setup() {
-        // exapmle object
+        // example object
         // {link: "https://notatki-db.netlify.app", text: "Notes site"}
         const sites = [
             {
@@ -54,15 +41,15 @@ export default {
             },
             {
                 link: "https://wca-info.netlify.app/#/",
-                text: "Site that gives information about WCA competitions and competitors (Not finished, i'll maybe finish it in the future)",
+                text: "Site that gives information about WCA competitions and competitors",
             },
             {
                 link: "https://speedcubing-timer.netlify.app/#/",
-                text: "A timer for solving a rubiks cube (Its still in the making)",
+                text: "A timer for solving a rubiks cube",
             },
             {
-                link: "https://sosna-fretboardmemorizer.netlify.app/",
-                text: "Fretboard memorizer",
+                link: "sosna-guitar-stuff.netlify.app",
+                text: "Guitar stuff",
             },
             {
                 link: "https://sosna-customtests.netlify.app/",
